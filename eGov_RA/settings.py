@@ -93,11 +93,11 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'egov_db',
-        'USER': 'root',
-        #'PASSWORD': 'root',
-        #'HOST':'egovra-v30-master4-egov_db-1',
-        'PASSWORD': '',
-        'HOST':'localhost',
+        'USER': 'user',
+        'PASSWORD': 'user',
+        'HOST':'egov_db',
+        #'PASSWORD': '',
+        #'HOST':'localhost',
         'PORT':'3306',
 
     }
